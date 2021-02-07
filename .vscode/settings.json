@@ -3,6 +3,6 @@
         "node_modules{,/**}",
         ".vscode{,/**}"
     ],
-    "appService.defaultWebAppToDeploy": "/subscriptions/b1f2c1ce-65b3-4ebb-81bc-213f0c06a683/resourceGroups/ptacosmos/providers/Microsoft.Web/sites/PTAPOCFE",
+    "appService.defaultWebAppToDeploy": "",
     "appService.deploySubpath": "build"
 }
