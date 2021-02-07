@@ -2,8 +2,8 @@
 import axios from 'axios'
 
 const api = axios.create({
-   baseURL: 'http://localhost:3000/api',
-    // baseURL: 'https://housesserverlinux.azurewebsites.net/api',
+  // baseURL: 'http://localhost:3000/api',
+   baseURL: 'https://ptatestnodeserver.azurewebsites.net/api',
 })
 
 export const insertHouse = payload => api.post(`/house`, payload)
